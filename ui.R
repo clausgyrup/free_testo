@@ -22,7 +22,15 @@ shinyUI(fluidPage(
                            textOutput('free_t')), 
                   tabPanel("Documentation", 
                            h3('Description of the app'),
-                           p('text')))
+                           p('Testosterone, the male steroid hormone, is an important 
+                             steroid hormone in the human body. It circulates in the blood bound to 
+                             the plasma proteins albumin and sex hormone binding globulin (SHBG). A small 
+                             fraction of testosterone is not bound to any proteins and is considered 
+                             the active form. This form is difficult to measure, but can be estimated from the total testosterone 
+                             concentration, the SHBG concentration and the concentration of albumin.'),
+                           p('The calculation of free testosterone is carried out as described in Vermeulen A et.al. 1999 J
+                             Clin Endocrin Metab, 84,3666-3672')
+                           ))
                   
       
     )
